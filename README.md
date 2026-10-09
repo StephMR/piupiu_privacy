@@ -1,6 +1,6 @@
 # Piupiu: Politique de confidentialité / Privacy Policy
 
-*Dernière mise à jour / Last updated: 8 octobre 2026 / October 8, 2026*
+*Dernière mise à jour / Last updated: 9 octobre 2026 / October 9, 2026*
 
 [Français](#français) · [English](#english)
 
@@ -8,7 +8,7 @@
 
 ## Français
 
-Piupiu est une application Android gratuite qui affiche des informations nutritionnelles et des prix à partir de bases de données ouvertes. Elle est développée par Stéphane Martin-Richter, développeur indépendant (contact : stephanemartinrichter@gmail.com).
+Piupiu est une application Android gratuite qui affiche des informations sur les produits alimentaires et cosmétiques (nutrition, additifs, perturbateurs endocriniens, allergènes) et leurs prix, à partir de bases de données ouvertes. Elle est développée par Stéphane Martin-Richter, développeur indépendant (contact : stephanemartinrichter@gmail.com).
 
 **En résumé : pas de compte, pas de publicité, pas de mesure d'audience, pas de pistage. Le développeur ne possède aucun serveur et ne reçoit aucune de vos données.**
 
@@ -21,10 +21,11 @@ Pour fonctionner, l'application interroge directement les services suivants via 
 | Service | Ce qui est envoyé | Quand |
 |---|---|---|
 | **Open Food Facts** (association à but non lucratif, France) | Le code-barres du produit | Quand vous scannez ou saisissez un produit |
+| **Open Beauty Facts** (projet d'Open Food Facts) | Le code-barres du produit | Quand Open Food Facts ne connaît pas le produit (cosmétiques) |
 | **Open Prices** (projet d'Open Food Facts) | Les codes-barres, la devise de votre pays | Quand vous scannez un produit, pour le prix moyen |
 | **Open Prices** | Les codes-barres de votre panier et votre **position approximative, arrondie à environ 1 km** | Uniquement quand vous appuyez sur « Terminer » et avez autorisé la localisation |
 
-Politique de confidentialité d'Open Food Facts : https://world.openfoodfacts.org/privacy
+Politique de confidentialité d'Open Food Facts (qui couvre aussi Open Beauty Facts) : https://world.openfoodfacts.org/privacy
 
 ### Services Google Play
 - **Lecteur de codes-barres** : la caméra est gérée par le service de scan de Google Play (Google code scanner). Les images sont analysées sur votre téléphone ; Piupiu ne reçoit que le numéro du code-barres et n'a pas accès à la caméra. Google peut collecter des données techniques et de diagnostic : https://developers.google.com/ml-kit/terms
@@ -54,7 +55,7 @@ stephanemartinrichter@gmail.com
 
 ## English
 
-Piupiu is a free Android app that shows nutrition information and prices from open databases. It is developed by Stéphane Martin-Richter, an independent developer (contact: stephanemartinrichter@gmail.com).
+Piupiu is a free Android app that shows information about food and beauty products (nutrition, additives, endocrine disruptors, allergens) and their prices, from open databases. It is developed by Stéphane Martin-Richter, an independent developer (contact: stephanemartinrichter@gmail.com).
 
 **In short: no account, no ads, no analytics, no tracking. The developer runs no server and receives none of your data.**
 
@@ -67,10 +68,11 @@ To work, the app talks directly to the following services over encrypted connect
 | Service | What is sent | When |
 |---|---|---|
 | **Open Food Facts** (non-profit association, France) | The product's barcode | When you scan or type a product |
+| **Open Beauty Facts** (an Open Food Facts project) | The product's barcode | When Open Food Facts doesn't know the product (cosmetics) |
 | **Open Prices** (an Open Food Facts project) | Barcodes, your country's currency | When you scan a product, for its average price |
 | **Open Prices** | Your basket's barcodes and your **approximate location, rounded to about 1 km** | Only when you tap "Finish" and have allowed location |
 
-Open Food Facts privacy policy: https://world.openfoodfacts.org/privacy
+Open Food Facts privacy policy (also covering Open Beauty Facts): https://world.openfoodfacts.org/privacy
 
 ### Google Play services
 - **Barcode scanner**: the camera is handled by Google Play's scanning service (Google code scanner). Images are analysed on your phone; Piupiu only receives the barcode number and has no camera access. Google may collect technical and diagnostic data: https://developers.google.com/ml-kit/terms
