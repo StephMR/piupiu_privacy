@@ -1,6 +1,6 @@
 # Piupiu: Politique de confidentialité / Privacy Policy
 
-*Dernière mise à jour / Last updated: 9 octobre 2026 / October 9, 2026 (v1.3)*
+*Dernière mise à jour / Last updated: 9 octobre 2026 / October 9, 2026 (v1.5)*
 
 [Français](#français) · [English](#english)
 
@@ -13,7 +13,7 @@ Piupiu est une application Android gratuite qui affiche des informations sur les
 **En résumé : pas de compte, pas de publicité, pas de mesure d'audience, pas de pistage. Le développeur ne possède aucun serveur et ne reçoit aucune de vos données.**
 
 ### Données stockées sur votre téléphone
-Votre panier en cours et l'historique des courses que vous validez (date, codes-barres, noms des produits, scores, additifs à risque, prix que vous saisissez, quantités) sont enregistrés uniquement dans le stockage privé de l'application sur votre téléphone. Les statistiques de l'onglet Historique sont calculées sur le téléphone. Vous pouvez supprimer une course de l'historique à tout moment ; tout est effacé si vous videz les données de l'application ou la désinstallez. Si la sauvegarde Android est activée sur votre téléphone, ces données peuvent être incluses dans votre sauvegarde Google chiffrée, comme pour les autres applications.
+Votre panier en cours et l'historique des courses que vous validez (date, codes-barres, noms des produits, scores, additifs à risque, prix que vous saisissez, quantités) sont enregistrés uniquement dans le stockage privé de l'application sur votre téléphone. Les statistiques de l'onglet Historique et le bilan mensuel sont calculés sur le téléphone. Si vous enregistrez un bilan en PDF, le fichier est créé sur le téléphone, à l'endroit que vous choisissez, et n'est envoyé nulle part. Vous pouvez supprimer une course de l'historique à tout moment ; tout est effacé si vous videz les données de l'application ou la désinstallez. Si la sauvegarde Android est activée sur votre téléphone, ces données peuvent être incluses dans votre sauvegarde Google chiffrée, comme pour les autres applications.
 
 ### Données envoyées à des services tiers
 Pour fonctionner, l'application interroge directement les services suivants via des connexions chiffrées (HTTPS). Comme pour toute connexion Internet, ces services voient l'adresse IP de votre téléphone.
@@ -61,7 +61,7 @@ Piupiu is a free Android app that shows information about food and beauty produc
 **In short: no account, no ads, no analytics, no tracking. The developer runs no server and receives none of your data.**
 
 ### Data stored on your phone
-Your current basket and the history of the shopping you validate (date, barcodes, product names, scores, high-risk additives, prices you enter, quantities) are saved only in the app's private storage on your phone. The statistics in the History tab are computed on the phone. You can delete any shopping from the history at any time; everything is erased if you clear the app's data or uninstall it. If Android backup is turned on, this data may be included in your encrypted Google backup, as with other apps.
+Your current basket and the history of the shopping you validate (date, barcodes, product names, scores, high-risk additives, prices you enter, quantities) are saved only in the app's private storage on your phone. The statistics in the History tab and the monthly recap are computed on the phone. If you save a recap as a PDF, the file is created on the phone, where you choose, and is not sent anywhere. You can delete any shopping from the history at any time; everything is erased if you clear the app's data or uninstall it. If Android backup is turned on, this data may be included in your encrypted Google backup, as with other apps.
 
 ### Data sent to third-party services
 To work, the app talks directly to the following services over encrypted connections (HTTPS). As with any internet connection, these services see your phone's IP address.
