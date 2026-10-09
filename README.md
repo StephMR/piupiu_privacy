@@ -1,6 +1,6 @@
 # Piupiu: Politique de confidentialité / Privacy Policy
 
-*Dernière mise à jour / Last updated: 9 octobre 2026 / October 9, 2026*
+*Dernière mise à jour / Last updated: 9 octobre 2026 / October 9, 2026 (v1.2)*
 
 [Français](#français) · [English](#english)
 
@@ -29,6 +29,7 @@ Politique de confidentialité d'Open Food Facts (qui couvre aussi Open Beauty Fa
 
 ### Services Google Play
 - **Lecteur de codes-barres** : la caméra est gérée par le service de scan de Google Play (Google code scanner). Les images sont analysées sur votre téléphone ; Piupiu ne reçoit que le numéro du code-barres et n'a pas accès à la caméra. Google peut collecter des données techniques et de diagnostic : https://developers.google.com/ml-kit/terms
+- **Lecture de la composition** : si vous photographiez la liste d'ingrédients d'un cosmétique, la photo est prise par l'application appareil photo de votre téléphone et lue **sur le téléphone** par la reconnaissance de texte de Google Play (ML Kit). Elle n'est envoyée nulle part : Piupiu la garde dans son espace privé, sans l'ajouter à votre galerie, et la remplace par la photo suivante.
 - **Localisation** : la position approximative est obtenue via les services de localisation de Google Play.
 
 Politique de confidentialité de Google : https://policies.google.com/privacy
@@ -37,7 +38,7 @@ Politique de confidentialité de Google : https://policies.google.com/privacy
 - **Internet** : pour interroger Open Food Facts et Open Prices.
 - **Position approximative** (facultative) : demandée uniquement quand vous appuyez sur « Terminer », pour trouver les magasins moins chers à proximité. Elle n'est jamais utilisée en arrière-plan ni conservée. Si vous refusez, l'application fonctionne normalement, sans comparaison de magasins.
 
-L'application ne demande **pas** l'accès à la caméra, à vos contacts, à vos fichiers ni à votre identité.
+L'application ne demande **pas** l'accès à la caméra (les photos passent par votre application appareil photo), à vos contacts, à vos fichiers ni à votre identité.
 
 ### Enfants
 Piupiu s'adresse au grand public et ne collecte sciemment aucune donnée personnelle d'enfants.
@@ -76,6 +77,7 @@ Open Food Facts privacy policy (also covering Open Beauty Facts): https://world.
 
 ### Google Play services
 - **Barcode scanner**: the camera is handled by Google Play's scanning service (Google code scanner). Images are analysed on your phone; Piupiu only receives the barcode number and has no camera access. Google may collect technical and diagnostic data: https://developers.google.com/ml-kit/terms
+- **Reading the ingredients**: if you photograph a cosmetic's ingredient list, the photo is taken by your phone's camera app and read **on the phone** by Google Play's text recognition (ML Kit). It is not sent anywhere: Piupiu keeps it in its private storage, without adding it to your gallery, and replaces it with the next one.
 - **Location**: the approximate location comes from Google Play location services.
 
 Google privacy policy: https://policies.google.com/privacy
@@ -84,7 +86,7 @@ Google privacy policy: https://policies.google.com/privacy
 - **Internet**: to query Open Food Facts and Open Prices.
 - **Approximate location** (optional): requested only when you tap "Finish", to find cheaper stores nearby. It is never used in the background or stored. If you decline, the app works normally without the store comparison.
 
-The app does **not** request access to your camera, contacts, files or identity.
+The app does **not** request access to your camera (photos go through your camera app), contacts, files or identity.
 
 ### Children
 Piupiu is intended for a general audience and does not knowingly collect personal data from children.
